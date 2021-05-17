@@ -8,6 +8,7 @@
     --blue: 99, 161, 219;
     /*63a1db*/
     --family: Raleway, sans-serif;
+    --li: none;
 }
 
 * {
@@ -35,6 +36,7 @@ h2 {
 #logo {
     font-size: 300%;
     float: left;
+    margin-left: 20px;
 }
 
 /* Navigation links*/
@@ -124,4 +126,39 @@ h2 {
 
     position: absolute;
 
+}
+
+/* All offers*/
+
+.offers-box {
+    width: 33%;
+    height: 40%;
+    margin: 1rem 0;
+    display: inline-block;
+}
+
+#all-offers {
+    height: 600px;
+    background-image: url('../images/all-offers.jpg') center center no repeat fixed;
+    background-size: cover;
+}
+
+#services-box {
+    background-color: #8e7cc3;
+    position: relative;
+    left: 70px;
+    top: -15px;
+}
+
+#treatments-box {
+    background-color: rgb(var(--blue));
+    position: relative;
+    z-index: 1;
+}
+
+#coaches-box {
+    background-color: #38761d;
+    position: relative;
+    right: 70px;
+    top: -15px;
 }
