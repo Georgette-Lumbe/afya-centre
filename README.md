@@ -10,6 +10,7 @@ Features
     •	Features to Implement in the future
 Testing
     •	Validator testing
+    
 Issues and Bugs
 Technologies Used
     •	Main Languages Used
